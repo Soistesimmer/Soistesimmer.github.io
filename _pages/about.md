@@ -18,7 +18,7 @@ I am a Ph.D. candidate at the School of Informatics, Xiamen University, China, a
 
 ## Publications
 - **Ante Wang**, Linfeng Song, Ye Tian, Baolin Peng, Dian Yu, Haitao Mi, Jinsong Su, Dong Yu. 2024. LiteSearch: Efficacious Tree Search for LLM. In Proc. of AAAI 2025.
-- **Ante Wang**, Linfeng Song, Zijun Min, Ge Xu, Xiaoli Wang, Junfeng Yao, Jinsong Su. 2024. Mitigating the negative impact of over-association for conversational query production. IPM.
+- **Ante Wang**, Linfeng Song, Zijun Min, Ge Xu, Xiaoli Wang, Junfeng Yao, Jinsong Su. 2024. Mitigating the negative impact of over-association for conversational query production. IP&M.
 - **Ante Wang**, Linfeng Song, Ye Tian, Baolin Peng, Lifeng Jin, Haitao Mi, Jinsong Su, Dong Yu. 2024. Self-Consistency Boosts Calibration for Math Reasoning. In Proc. of Findings of EMNLP 2024.
 - **Ante Wang**, Linfeng Song, Baolin Peng, Ye Tian, Lifeng Jin, Haitao Mi, Jinsong Su, Dong Yu. 2024. Improving LLM Generations via Fine-Grained Self-Endorsement. In Proc. of Findings of ACL 2024.
 - Jianheng Huang, Leyang Cui, **Ante Wang**, Chengyi Yang, Xinting Liao, Linfeng Song, Junfeng Yao, Jinsong Su. 2024. Mitigating Catastrophic Forgetting in Large Language Models with Self-Synthesized Rehearsal. In Proc. of ACL 2024.
