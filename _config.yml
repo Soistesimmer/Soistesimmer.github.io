@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Ante Wang"
 title_separator          : "-"
 name                     : &name "Ante Wang"
-description              : &description "I❤RIM"
+description              : &description "I❤V.W.P"
 url                      : https://soistesimmer.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Soistesimmer/soistesimmer.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "photo.png"
   name             : "Ante Wang"
   pronouns         : # example: "she/her"  
-  bio              : "I❤RIM"
+  bio              : "I❤V.W.P"
   location         : "China"
   employer         : "Xiamen University"
   uri              : # URL
@@ -108,7 +108,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
