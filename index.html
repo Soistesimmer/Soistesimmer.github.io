@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Page</title>
+    <title>Ante Wang - Personal Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .publication-item .authors {
+            font-weight: 500;
+        }
+        .author-bold {
+            font-weight: 700;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <header class="profile-header">
             <div class="profile-photo-container">
-                <img src="assets/profile-photo.jpg" alt="Your Name" class="profile-photo">
+                <img src="assets/profile-photo.jpg" alt="Ante Wang" class="profile-photo">
             </div>
             <div class="profile-info">
-                <h1>Your Name</h1>
-                <p class="tagline">Your Professional Tagline</p>
+                <h1>Ante Wang</h1>
                 <div class="social-links">
-                    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
-                    <a href="mailto:your.email@example.com">Email</a>
+                    <a href="https://github.com/Soistesimmer" target="_blank">GitHub</a>
+                    <a href="https://scholar.google.com/citations?user=xmwanZcAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                    <a href="mailto:wangante@stu.xmu.edu.cn">Email</a>
                 </div>
             </div>
         </header>
@@ -30,53 +37,35 @@
             <section id="about" class="section">
                 <h2>About Me</h2>
                 <div class="markdown-content">
-                    <p>Write a brief introduction about yourself here. You can talk about your interests, expertise, and what you're currently working on.</p>
+                    <p>I am a postdoctoral researcher at the Institute for AI Industry Research (AIR), Tsinghua University, advised by Prof. Yang Liu.</p>
                 </div>
             </section>
 
             <section id="education" class="section">
                 <h2>Education</h2>
                 <div class="markdown-content">
-                    <!-- Your education content in markdown format -->
                     <div class="education-item">
-                        <h3>University Name</h3>
-                        <p class="degree">Degree Name, Field of Study</p>
-                        <p class="date">Year - Year</p>
-                        <p>Description of your studies, achievements, or relevant coursework.</p>
+                        <h3>Xiamen University</h3>
+                        <p class="degree">Ph.D.</p>
+                        <p class="date">2020 - 2025</p>
+                        <p>Supervised by Prof. Jinsong Su.</p>
                     </div>
                     
                     <div class="education-item">
-                        <h3>Another University</h3>
-                        <p class="degree">Another Degree, Another Field</p>
-                        <p class="date">Year - Year</p>
-                        <p>Additional educational information.</p>
+                        <h3>Xiamen University</h3>
+                        <p class="degree">Bachelor</p>
+                        <p class="date">2016 - 2020</p>
                     </div>
                 </div>
             </section>
 
             <section id="experience" class="section">
-                <h2>Work Experience</h2>
+                <h2>Experience</h2>
                 <div class="markdown-content">
-                    <!-- Your work experience in markdown format -->
                     <div class="experience-item">
-                        <h3>Company Name</h3>
-                        <p class="position">Your Position</p>
-                        <p class="date">Month Year - Month Year</p>
-                        <ul>
-                            <li>Responsibility or achievement</li>
-                            <li>Another responsibility or achievement</li>
-                            <li>Key project or contribution</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="experience-item">
-                        <h3>Previous Company</h3>
-                        <p class="position">Previous Position</p>
-                        <p class="date">Month Year - Month Year</p>
-                        <ul>
-                            <li>Responsibility or achievement</li>
-                            <li>Another responsibility or achievement</li>
-                        </ul>
+                        <h3>Tencent AI Lab</h3>
+                        <p class="date">2021 - 2025</p>
+                        <p>Research Intern under the guidance of Senior Researcher Linfeng Song.</p>
                     </div>
                 </div>
             </section>
@@ -84,33 +73,143 @@
             <section id="publications" class="section">
                 <h2>Publications</h2>
                 <div class="markdown-content">
-                    <!-- Your publications in markdown format -->
                     <div class="publication-item">
-                        <h3>Paper Title</h3>
-                        <p class="authors">Your Name, Co-author Name, Another Co-author</p>
-                        <p class="venue">Journal or Conference Name, Year</p>
-                        <p class="links">
-                            <a href="#" target="_blank">PDF</a> | 
-                            <a href="#" target="_blank">DOI</a> | 
-                            <a href="#" target="_blank">Code</a>
-                        </p>
+                        <h3>Beyond Passive Critical Thinking: Fostering Proactive Questioning to Enhance Human-AI Collaboration</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Yujie Lin, Jingyao Liu, Suhang Wu, Hao Liu, Xinyan Xiao, Jinsong Su</p>
+                        <p class="venue">arXiv preprint arXiv:2507</p>
                     </div>
                     
                     <div class="publication-item">
-                        <h3>Another Paper Title</h3>
-                        <p class="authors">Your Name, Co-author Name</p>
-                        <p class="venue">Journal or Conference Name, Year</p>
-                        <p class="links">
-                            <a href="#" target="_blank">PDF</a> | 
-                            <a href="#" target="_blank">DOI</a>
-                        </p>
+                        <h3>Don't Get Lost in the Trees: Streamlining LLM Reasoning by Overcoming Tree Search Exploration Pitfalls</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Linfeng Song, Ye Tian, Dian Yu, Haitao Mi, Xiangyu Duan, Zhaopeng Tu, Jinsong Su, Dong Yu</p>
+                        <p class="venue">In Proceedings of ACL, 2025</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>LiteSearch: Efficient Tree Search with Dynamic Exploration Budget for Math Reasoning</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Linfeng Song, Ye Tian, Baolin Peng, Dian Yu, Haitao Mi, Jinsong Su, Dong Yu</p>
+                        <p class="venue">In Proceedings of AAAI, 2025</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>A Dual-Perspective Metaphor Detection Framework Using Large Language Models</h3>
+                        <p class="authors">Yujie Lin, Jingyao Liu, Yan Gao, <span class="author-bold">Ante Wang</span>, Jinsong Su</p>
+                        <p class="venue">In Proceedings of ICASSP, 2025</p>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>A Multi-Agent Framework with Automated Decision Rule Optimization for Cross-Domain Misinformation Detection</h3>
+                        <p class="authors">Hui Li, <span class="author-bold">Ante Wang</span>, Zhihao Wang, Liang Zhang, Delai Qiu, Qingsong Liu, Jinsong Su</p>
+                        <p class="venue">In Proceedings of EMNLP, 2025</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Mitigating the Negative Impact of Over-Association for Conversational Query Production</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Linfeng Song, Zijun Min, Ge Xu, Xiaoli Wang, Junfeng Yao, Jinsong Su</p>
+                        <p class="venue">Information Processing and Management, 2024</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Mitigating Catastrophic Forgetting in Large Language Models with Self-Synthesized Rehearsal</h3>
+                        <p class="authors">Jianheng Huang, Leyang Cui, <span class="author-bold">Ante Wang</span>, Chengyi Yang, Xinting Liao, Linfeng Song, Junfeng Yao, Jinsong Su</p>
+                        <p class="venue">In Proceedings of ACL, 2024</p>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>Boosting Visual Knowledge-Intensive Training for LVLMs through Causality-Driven Visual Object Completion</h3>
+                        <p class="authors">Qingguo Hu⁺, <span class="author-bold">Ante Wang</span>⁺, Jia Song, Delai Qiu, Qingsong Liu, Jinsong Su</p>
+                        <p class="venue">In Proceedings of IJCAI, 2025</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Investigating Inference-time Scaling for Chain of Multi-modal Thought: A Preliminary Study</h3>
+                        <p class="authors">Yujie Lin⁺, <span class="author-bold">Ante Wang</span>⁺, Moye Chen, Jingyao Liu, Hao Liu, Jinsong Su, Xinyan Xiao</p>
+                        <p class="venue">In Findings of ACL, 2025</p>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>DocTER: Evaluating Document-Based Knowledge Editing</h3>
+                        <p class="authors">Suhang Wu⁺, <span class="author-bold">Ante Wang</span>⁺, Minlong Peng, Yujie Lin, Wenbo Li, Mingming Sun, Jinsong Su</p>
+                        <p class="venue">Information Processing and Management, 2025</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Improving LLM Generations via Fine-Grained Self-Endorsement</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Linfeng Song, Baolin Peng, Ye Tian, Lifeng Jin, Haitao Mi, Jinsong Su, Dong Yu</p>
+                        <p class="venue">In Findings of ACL, 2024</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Self-Consistency Boosts Calibration for Math Reasoning</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Linfeng Song, Ye Tian, Baolin Peng, Lifeng Jin, Haitao Mi, Jinsong Su, Dong Yu</p>
+                        <p class="venue">In Findings of EMNLP (short), 2024</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Response Enhanced Semi-supervised Dialogue Query Generation</h3>
+                        <p class="authors">Jianheng Huang⁺, <span class="author-bold">Ante Wang</span>⁺, Linfeng Gao, Linfeng Song, Jinsong Su</p>
+                        <p class="venue">In Proceedings of AAAI, 2024</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation</h3>
+                        <p class="authors">Zhongquan Jian⁺, <span class="author-bold">Ante Wang</span>⁺, Jinsong Su, Junfeng Yao, Meihong Wang, Qingqiang Wu</p>
+                        <p class="venue">In Proceedings of COLING, 2024</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Domain Adaptation for Conversational Query Production with the RAG Model Feedback</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Linfeng Song, Ge Xu, Jinsong Su</p>
+                        <p class="venue">In Findings of EMNLP, 2023</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>D2PSG: Multi-Party Dialogue Discourse Parsing as Sequence Generation</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Linfeng Song, Lifeng Jin, Junfeng Yao, Haitao Mi, Chen Lin, Jinsong Su, Dong Yu</p>
+                        <p class="venue">IEEE/ACM Transactions on Audio, Speech and Language Processing, 2023</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Search-Engine-Augmented Dialogue Response Generation with Cheaply Supervised Query Production</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Linfeng Song, Qi Liu, Haitao Mi, Longyue Wang, Zhaopeng Tu, Jinsong Su, Dong Yu</p>
+                        <p class="venue">Artificial Intelligence, 2023</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>OpenFact: Factuality Enhanced Open Knowledge Extraction</h3>
+                        <p class="authors">Linfeng Song⁺, <span class="author-bold">Ante Wang</span>⁺, Xiaoman Pan, Hongming Zhang, Dian Yu, Lifeng Jin, Haitao Mi, Jinsong Su, Yue Zhang, Dong Yu</p>
+                        <p class="venue">Transactions of the Association for Computational Linguistics, 2023</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>CASA: Conversational Aspect Sentiment Analysis for Dialogue Understanding</h3>
+                        <p class="authors">Linfeng Song, Chunlei Xin, Shaopeng Lai, <span class="author-bold">Ante Wang</span>, Jinsong Su, Kun Xu, Dong Yu</p>
+                        <p class="venue">Journal of Artificial Intelligence Research, 2022</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>A Structure Self-Aware Model for Discourse Parsing on Multi-Party Dialogues</h3>
+                        <p class="authors"><span class="author-bold">Ante Wang</span>, Linfeng Song, Hui Jiang, Shaopeng Lai, Junfeng Yao, Min Zhang, Jinsong Su</p>
+                        <p class="venue">In Proceedings of IJCAI, 2021</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Improving Graph-based Sentence Ordering with Iteratively Predicted Pairwise Orderings</h3>
+                        <p class="authors">Shaopeng Lai, <span class="author-bold">Ante Wang</span>, Fandong Meng, Jie Zhou, Yubin Ge, Jiali Zeng, Junfeng Yao, Degen Huang, Jinsong Su</p>
+                        <p class="venue">In Proceedings of EMNLP, 2021</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Structural Information Preserving for Graph-to-Text Generation</h3>
+                        <p class="authors">Linfeng Song, <span class="author-bold">Ante Wang</span>, Jinsong Su, Yue Zhang, Kun Xu, Yubin Ge, Dong Yu</p>
+                        <p class="venue">In Proceedings of ACL, 2020</p>
                     </div>
                 </div>
             </section>
         </main>
 
         <footer class="footer">
-            <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+            <p>&copy; <span id="current-year"></span> Ante Wang. All rights reserved.</p>
         </footer>
     </div>
 
